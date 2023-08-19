@@ -1,0 +1,72 @@
+/* all */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+/* Navbar section */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+/* Hero seciton styling */
+.section {
+  /* padding-top: 80px; */
+  /* padding-bottom: 80px; */
+  position: relative;
+}
+.home-half {
+  padding-bottom: 150px;
+  padding-top: 220px;
+}
+.bg-home {
+  background: url(../images/HeroSection/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-overlay {
+  background: linear-gradient(to right, #512da8, #711e72);
+  opacity: 0.9;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.display-table-cell .row {
+  position: relative;
+}
+.display-table-cell .row .home-title {
+  font-size: 46px;
+  line-height: 64px;
+  width: 75%;
+}
+.display-table-cell .row .home-desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.home-half .bg-pattern-effect {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: auto;
+}
+.bg-pattern-effect img {
+  max-width: 100%;
+}
